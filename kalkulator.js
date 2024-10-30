@@ -75,9 +75,9 @@ $(function () {
         hasil = input1 % input2;
       } else if (operasiSelected == "!") {
         // Operasi faktorial
-        hasil = `Faktorial dari ${input1} = ${factorial(
+        hasil = `${factorial(
           input1
-        )}, Faktorial dari ${input2} = ${factorial(input2)}`;
+        )}`
       } else {  
       alert(`Belum ada handle untuk operasi ${operasiSelected}`);
     }
